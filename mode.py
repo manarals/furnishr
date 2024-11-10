@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw
 from io import BytesIO
 
 # Load the dataset (ensure the file is accessible for Streamlit)
-file_path = r'D:\Downloads\rcp_furniture_sales_confidential.csv'
+file_path = 'rcp_furniture_sales_confidential.csv'
 df = pd.read_csv(file_path)
 
 # Filter relevant columns, including USD Retail Price
